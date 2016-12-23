@@ -1,0 +1,195 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.main-wrap {
+	max-width: 100%;
+	text-align: center;
+	color: #fff;
+}
+.headersection{
+	height: 200px;
+	color: #fff;
+	background-color: #000;
+}
+.logo{
+	float: left;
+	padding: 50px 40px 0px 50px;
+}
+.form {
+	padding: 70px 0;
+}
+input[type="text"] {
+	width: 300px;
+}
+.social-nav {
+	display: inline-flex;
+	padding: 20px 0;
+}
+.social img{
+	padding: 0 5px;
+}
+.navigation ul li {
+	border-right: 1px solid #fff;
+	display: inline-block;
+	padding: 0 20px;
+}
+.navigation ul li:last-child {
+	border-right: none;
+}
+nav.navigation {
+	display: inline-block;
+}
+
+nav.top-menu-nav ul li{
+	display: inline-block;
+}
+.top-menu-nav{
+	height:80px;
+	color: #000;
+	padding: 20px 0px;
+}
+.top-menu-nav ul li {
+	padding: 0 40px;
+	font-size: xx-large;
+	border-right: 1px solid #000;
+}
+.top-menu-nav ul li:last-child {
+	border-right: none;
+}
+.top-menu-nav a {
+	text-decoration: none;
+}
+/******************************************************************************/
+/******************************************************************************
+END MENU
+******************************************************************************/
+/******************************************************************************/
+
+.topsection {
+	background: url(image-assets/topsection-background.png) no-repeat center center;
+	background-size: cover;
+	height: 700px;
+}
+.product {
+	float: right;
+	line-height: 2;
+	position: relative;
+    top: 100px;
+    right: 137px;
+    display: block;
+}
+.title {
+	
+    vertical-align: text-top;
+    text-align: left;
+    display: block;
+}
+.topsection ul li {
+ 	
+    text-align: left;
+    vertical-align: text-top;
+    display: block;
+}
+.topsection img {
+    position: relative;
+    top: 100px;
+    float: left;
+    left: 300px;
+}
+.topsection span {
+	float: right;
+    top: 100px;
+    position: relative;
+    right: 150px;
+    text-align: left;
+    display: block;
+}
+/******************************************************************************/
+/******************************************************************************
+END TOP
+******************************************************************************/
+/******************************************************************************/
+.midsection {
+	background-color: #808080;
+	height: 900px;
+}
+.midsection img {
+	float: left;
+	padding: 20px 40px;
+}
+.midsection p{
+	 position: relative;
+    top: 100px;
+    right: 15px;
+    text-align: left;
+    clear: right;
+    line-height: 2;
+}
+/******************************************************************************/
+/******************************************************************************
+END MID
+******************************************************************************/
+/******************************************************************************/
+.reviewsection {
+background-color: #000066;
+height: 650px;
+text-align: left;
+}
+.reviewsection h2 {
+	text-decoration: underline;
+}
+.reviewsection a {
+	color: #fff;
+}
+.reviewsection h1, .reviewsection h2 {
+	text-align: center;
+}
+.reviewer {
+    padding: 10px 0;
+}
+.reviewsection img {
+	border: 1px solid;
+}
+.reviewsection p {
+	text-align: left;
+}
+.thereviewer {
+	padding: 20px 0px 0px 200px;
+	text-align: left;
+}
+.productdescr{
+	clear: left;
+}
+/******************************************************************************/
+/******************************************************************************
+END REVIEW
+******************************************************************************/
+/******************************************************************************/
+.footersection{
+	background-color: #000;
+	color: #fff;
+	background-size: cover;
+	height: 125px;
+}
+nav.btm-nav-menu {
+    padding: 27px 0px;
+}
+.footersection nav ul li {
+	display: inline-flex;
+    padding: 50px 20px;
+}
+.logo-small {
+	float: left;
+	padding: 40px 0px 10px 100px;
+}
